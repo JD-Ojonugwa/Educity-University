@@ -5,7 +5,7 @@ import About from "./Component/About/About";
 import Title from "./Component/Title/Title";
 import Program from "./Component/Program/Program";
 import Campus from "./Component/Campus/Campus";
-// import Testimonials from "./Component/Testimonials/Testimonials";
+import Testimonials from "./Component/Testimonials/Testimonials";
 // import Contact from "./Component/Contact/Contact";
 // import Footer from "./Component/Footer/Footer";
 
@@ -20,11 +20,11 @@ function App() {
         <About />
         <Title subTitle="GALLERY" title="Campus Photos" />
         <Campus />
-        {/* <Title subTitle="TESTIMONIALS" title="What our Student Says" />
+        <Title subTitle="TESTIMONIALS" title="What our Student Says" />
         <Testimonials />
-        <Title subTitle="CONTACT US" title="Get in Touch" />
+        {/* <Title subTitle="CONTACT US" title="Get in Touch" />
         <Contact />
-        <Footer />  */}
+        <Footer />   */}
       </div>
     </div>
   );
