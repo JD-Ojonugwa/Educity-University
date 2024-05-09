@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Component/Navbar/Navbar";
-// import Hero from "./Component/Hero/Hero";
+import Hero from "./Component/Hero/Hero";
 // import About from "./Component/About/About";
 // import Title from "./Component/Title/Title";
 // import Program from "./Component/Program/Program";
@@ -13,8 +13,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Hero />
-      <div className="container">
+      <Hero />
+      {/* <div className="container">
         <Title subTitle="Our PROGRAM" title="What we offer" />
         <Program />
         <About />
